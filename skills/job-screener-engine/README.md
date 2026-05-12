@@ -1,7 +1,6 @@
 # Job Screener Engine — 通用岗位筛选与评分引擎
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-发布-4B44C0)](https://clawhub.ai/CalmDownTR/job-screener-engine)
-[![skills.sh](https://skills.sh/b/CalmDownTR/job-screener-engine)](https://skills.sh/CalmDownTR/job-screener-engine)
 
 对用户提供的岗位机会进行结构化评估，输出多维量化评分和行动建议。
 
@@ -137,8 +136,8 @@ cp references/user_profile.TEMPLATE.md references/user_profile.md
 ```
 job-screener-engine/
 ├── SKILL.md                          # 技能主定义（AI 读取）
-├── _meta.json                        # 版本元数据
 ├── README.md                         # 本文件（人类阅读）
+├── CHANGELOG.md                      # 版本记录
 ├── references/
 │   ├── scoring_framework.md          # 评分标准框架
 │   ├── setup_wizard.md               # 首次配置向导（AI 使用）
@@ -149,8 +148,12 @@ job-screener-engine/
 
 ## 发布到市场
 
-本技能已发布到 [ClawHub](https://clawhub.ai/CalmDownTR/job-screener-engine)——OpenClaw 官方技能市场。
-WorkBuddy 用户可以直接通过「技能 → SkillHub」搜索安装。
+本技能已发布到以下平台：
+
+| 平台 | 安装方式 | 状态 |
+|------|---------|------|
+| [ClawHub](https://clawhub.ai/CalmDownTR/job-screener-engine) | WorkBuddy → 技能 → SkillHub 搜索 | ✅ 已上架 |
+| skills.sh | `npx skills add CalmDownTR/job-screener-engine` | ✅ 可直接安装（索引提交中） |
 
 如需自行发布 fork 版本：
 
