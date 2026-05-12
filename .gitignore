@@ -15,7 +15,8 @@ dist/
 *.skill
 
 # User config (generated from template, contains personal data)
-references/user_profile.md
+skills/job-screener-engine/references/user_profile.md
+**/user_profile.md
 
 # IDE
 .idea/
