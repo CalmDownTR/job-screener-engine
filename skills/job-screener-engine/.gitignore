@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+
+# Skill packaging
+*.skill
+
+# User config (generated from template, contains personal data)
+skills/job-screener-engine/references/user_profile.md
+**/user_profile.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# WorkBuddy internal metadata
+_meta.json
