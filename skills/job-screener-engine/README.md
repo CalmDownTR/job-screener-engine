@@ -1,5 +1,7 @@
 # Job Screener Engine — 通用岗位筛选与评分引擎
 
+[![ClawHub](https://img.shields.io/badge/ClawHub-发布-4B44C0)](https://clawhub.ai/CalmDownTR/job-screener-engine)
+
 对用户提供的岗位机会进行结构化评估，输出多维量化评分和行动建议。
 
 ---
@@ -140,17 +142,25 @@ job-screener-engine/
 │   └── info_checklist.md             # 信息收集清单（AI 使用）
 ```
 
-## 发布到市场（可选）
+## 发布到市场
 
-如果你想把这个技能分享给更多人：
+本技能已发布到 [ClawHub](https://clawhub.ai/CalmDownTR/job-screener-engine)——OpenClaw 官方技能市场。
+WorkBuddy 用户可以直接通过「技能 → SkillHub」搜索安装。
+
+如需自行发布 fork 版本：
 
 ```bash
-# 使用 skill-creator 工具打包
-# 检查技能是否符合规范
-quick_validate job-screener-engine/
+# 安装 ClawHub CLI
+npm i -g clawhub
 
-# 打包为 zip
-package_skill job-screener-engine/
+# 登录
+clawhub login
+
+# 发布
+clawhub publish ./job-screener-engine \
+  --slug your-slug \
+  --name "Job Screener Engine" \
+  --version 1.0.0
 ```
 
 ## 许可

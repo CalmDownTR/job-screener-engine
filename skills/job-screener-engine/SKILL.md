@@ -1,10 +1,9 @@
 ---
 name: job-screener-engine
+version: 1.0.0
+description: 对用户提供的岗位机会进行结构化评估，输出多维量化评分和行动建议。
+homepage: https://github.com/CalmDownTR/job-screener-engine
 agent_created: true
-description: |
-  岗位筛选与评分通用引擎。对用户提供的岗位进行多维度量化评估，输出评分和建议。
-  触发词：筛选岗位、评估机会、岗位评分、job scoring、机会评估、岗位筛选、帮我看看这个岗位、值得投吗。
-  第一次使用前请先执行配置向导（见"首次使用"部分），填写 user_profile.md。
 allowed-tools: Read, WebSearch
 ---
 

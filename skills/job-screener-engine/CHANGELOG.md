@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 (2026-05-12)
+
+### 修复
+- SKILL.md 补全 frontmatter 字段（version, homepage），满足 ClawHub 发布要求
+- README.md 发布指引更新为 ClawHub 流程
+
 ## 1.0.0 (2026-05-12)
 
 初始版本发布。
