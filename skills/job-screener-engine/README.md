@@ -1,6 +1,7 @@
 # Job Screener Engine — 通用岗位筛选与评分引擎
 
 [![ClawHub](https://img.shields.io/badge/ClawHub-发布-4B44C0)](https://clawhub.ai/CalmDownTR/job-screener-engine)
+[![skills.sh](https://skills.sh/b/CalmDownTR/job-screener-engine)](https://skills.sh/CalmDownTR/job-screener-engine)
 
 对用户提供的岗位机会进行结构化评估，输出多维量化评分和行动建议。
 
@@ -18,15 +19,19 @@
 
 ## 安装
 
-### 方式一：自动安装（推荐）
+### 方式一：ClawHub（WorkBuddy 用户）
+
+在 WorkBuddy 中：
+- 左侧「技能」→ SkillHub → 搜索 `job-screener-engine`
+- 或直接告诉 AI："帮我安装 job-screener-engine"
+
+### 方式二：npx skills（所有 OpenClaw 兼容的 AI 助手）
 
 ```bash
-# 如果已发布到技能市场
-find-skills job-screener-engine
-# 按照提示安装即可
+npx skills add CalmDownTR/job-screener-engine
 ```
 
-### 方式二：手动安装
+### 方式三：手动安装
 
 ```bash
 # 复制到你的技能目录
